@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Hello from './components/Hello.jsx';
+import Buttons from './button'
 
 function App() {
   return (
-    <div>
-      <Hello />
+    <div className="App">
+      <Buttons />
     </div>
   );
 }
