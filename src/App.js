@@ -3,10 +3,14 @@ import './App.css';
 import Buttons from './button'
 import Dropdown from './components/Dropdown'
 
+const clefOptions = ['treble', 'alto', 'tenor', 'bass']
+const instrumentOptions = ['violin', 'cello', 'piano']
+
 function App() {
   return (
     <div className="App">
-      <Dropdown />
+      <Dropdown value={instrumentOptions} />
+      <Dropdown value={clefOptions} />
       <Buttons />
     </div>
   );
